@@ -31,11 +31,11 @@ project:
       - source: /scripting/include
         dest: /addons/sourcemod/scripting/include
 
-    - name: lasermines
+    - name: zr_lasermines
       type: git
       repo: https://github.com/srcdslab/sm-plugin-ZR_LaserMines
       unpack:
-      - source: /scripting/include
+      - source: /addons/sourcemod/scripting/include
         dest: /addons/sourcemod/scripting/include
 
   root: /
